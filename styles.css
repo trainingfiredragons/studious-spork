@@ -1,0 +1,114 @@
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Fondamento;
+}
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-family: Fondamento;
+}
+hr {
+    border: 1px solid #090927;
+}
+.imageStyle {
+    max-width: 80%;
+    border: 2px solid #090927;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+.backgroundImageDiv {
+    z-index: -1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size:cover;
+    filter:blur(3px) saturate(0.6);
+    /*background-position:center;*/
+}
+.mainDiv {
+    border: 5px solid #090927;
+    min-width: 80%;
+    max-width: 80%;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1c203aaa;
+    border-radius: 20px;
+    color: #262339;
+}
+.mainContent {
+    width: 70%;
+    height: 100%;
+    margin: 1em auto;
+    border: 4px solid #585e74;
+    background-color: #7b7f9b;
+    border-radius: 20px;
+    z-index: 2;
+}
+.textContent {
+    width: 75%;
+    max-width: 400px;
+    min-width: 200px;
+    height: fit-content;
+    border: 4px solid #616482;
+    padding: 5px 15px 5px 15px;
+    z-index: 2;
+    background-color: #cad2e7;
+    font-family: Quicksand;
+    h4 {
+        text-align: center;
+    }
+    a {
+        color: #9742ff;
+    }
+    a:visited {
+        color: #3a0086;
+    }
+}
+.alignLeft {
+    margin: 1em auto 1em 20px;
+    border-radius: 0px 20px 0px 20px;
+    
+}
+.alignRight {
+    margin: 1em 20px 1em auto;
+    border-radius: 20px 0px 20px 0px;
+}
+.alignUp {
+    margin: 5px auto 1em auto;
+    border-radius: 0px 0px 20px 20px;
+}
+.alignDown {
+    margin: 1em auto 5px auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.alignCenter {
+    margin: 5px auto 5px auto;
+    border-radius: 20px;
+}
+.alignNone {
+    margin: 5px auto 5px auto;
+}
+.titleContent {
+    width: 70%;
+    height: fit-content;
+    margin: 1em auto;
+    text-align: center;
+    border: 4px solid #616482;
+    background-color: #cad2e7;
+    border-radius: 20px;
+    z-index: 2;
+    
+}
+.scrollbarHidden::-webkit-scrollbar {
+    display: none;
+}
+.scrollbarHidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+} 
